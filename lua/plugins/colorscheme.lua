@@ -19,8 +19,17 @@ return {
     priority = 1000,
     opts = {
       transparent = true,
+      sturation = 0.5,
     },
   },
+  -- {
+  --   "catppuccin/nvim",
+  --   name = "catppuccin",
+  --   priority = 1000,
+  --   opts = {
+  --     transparent_background = true,
+  --   },
+  -- },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
