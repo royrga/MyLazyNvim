@@ -1,27 +1,26 @@
 return {
   -- add tokyonight
-  -- {
-  --   "folke/tokyonight.nvim",
-  --   lazy = true,
-  --   opts = {
-  --     style = "moon",
-  --     transparent = true,
-  --     styles = {
-  --       sidebars = "transparent",
-  --       float = "transparent",
-  --     },
-  --   },
-  -- },
-
   {
-    "scottmckendry/cyberdream.nvim",
-    lazy = false,
-    priority = 1000,
+    "folke/tokyonight.nvim",
+    lazy = true,
     opts = {
-      transparent = true,
-      sturation = 0.5,
+      style = "moon",
+      -- transparent = true,
+      -- styles = {
+      --   sidebars = "transparent",
+      --   float = "transparent",
+      -- },
     },
   },
+
+  -- {
+  --   "scottmckendry/cyberdream.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   opts = {
+  --     transparent = false,
+  --   },
+  -- },
   -- {
   --   "catppuccin/nvim",
   --   name = "catppuccin",
@@ -34,7 +33,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "cyberdream",
+      -- colorscheme = "cyberdream",
+      colorscheme = "tokyonight",
     },
   },
 }
