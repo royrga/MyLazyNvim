@@ -21,7 +21,8 @@ return {
     opts = {
       -- colorscheme = "cyberdream",
       -- colorscheme = "tokyonight",
-      colorscheme = "Nordfox",
+      -- colorscheme = "nightfox",
+      colorscheme = "nordfox",
     },
   },
 }
